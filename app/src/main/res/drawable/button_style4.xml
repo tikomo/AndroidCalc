@@ -5,6 +5,11 @@
     <item android:state_pressed="false">
         <!-- shape:oval(=円形) -->
         <shape android:shape="oval">
+            <!-- サイズを指定 -->
+            <size
+                android:width="80dip"
+                android:height="80dip"/>
+
             <!-- グラデーション -->
             <!-- angle:角度、type:linear(=線形) -->
             <gradient
@@ -20,6 +25,11 @@
     <item android:state_pressed="true">
         <!-- shape:oval(=円形) -->
         <shape android:shape="oval">
+            <!-- サイズを指定 -->
+            <size
+                android:width="80dip"
+                android:height="80dip"/>
+
             <!-- グラデーション -->
             <!-- angle:角度、type:linear(=線形) -->
             <gradient

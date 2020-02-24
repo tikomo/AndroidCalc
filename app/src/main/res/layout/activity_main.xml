@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
-            android:background="@drawable/tv_style"
+            android:background="@drawable/tv_style_round"
             android:gravity="right"
             android:paddingLeft="10dip"
             android:paddingTop="5dip"
@@ -101,32 +101,40 @@
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dip"
                 android:layout_weight="1"
                 android:height="80dip"
+                android:background="@drawable/button_style3"
                 android:text="Button" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dip"
                 android:layout_weight="1"
                 android:height="80dip"
+                android:background="@drawable/button_style3"
                 android:text="Button" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dip"
                 android:layout_weight="1"
                 android:height="80dip"
+                android:background="@drawable/button_style4"
                 android:text="Button" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dip"
                 android:layout_weight="1"
                 android:height="80dip"
+                android:background="@drawable/button_style4"
                 android:text="Button" />
         </LinearLayout>
 
@@ -243,5 +251,17 @@
                 android:height="80dip"
                 android:text="Button" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:paddingRight="10dip"
+            android:text="TextView"
+            android:background="@drawable/tv_style2"
+            android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
